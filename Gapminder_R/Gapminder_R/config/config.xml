@@ -1,0 +1,7 @@
+<config>
+  <name>Education_index.csv,Employment_rate.csv,GDP.csv,Longterm_unemployment.csv</name>
+  <sep>,</sep>
+  <country>Spain</country>
+  <year>1991</year>
+  <target>Longterm_unemployment.csv</target>
+</config>

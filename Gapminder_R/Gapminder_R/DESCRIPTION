@@ -1,0 +1,11 @@
+Package: missingImputer
+Title: What The Package Does (one line, title case required)
+Version: 0.1
+Authors@R: person("Kerstin Ernesto Borja", "Equipo", email = "ejemplo@ejemplo.com",
+                  role = c("aut", "cre"))
+Description: What the package does (one paragraph)
+Depends: R (>= 3.1.0)
+License: What license is it under?
+LazyData: true
+RoxygenNote: 7.1.1
+Encoding: UTF-8
