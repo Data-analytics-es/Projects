@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/*$upper-margin: 12.5vh;*/
+$upper-margin: 0vh;
+
+#profileContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin-top: calc(12.5vh - #{$upper-margin});
+    & p{
+        margin: 0%;
+    }
+    & #loginContainer, #logoutContainer{
+        /*display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 87.5%;
+        margin-top: 6.8vh;*/
+        font: {
+            family: Raleway, sans-serif;
+            style: normal;
+            weight: 600;
+            size: 15px;
+        }
+        line-height: 120%;
+        
+        & #logout{
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+    & #loginContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        width: 80%;
+        margin-top: 2.46vh;
+        & a{
+            color: #404040;
+        }
+    }
+    & #logoutContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        width: 80%;
+        margin-top: 2.46vh;
+        color: #E6491A;
+        &+div{
+            margin-top: 1vh;
+        }
+    }
+    & #wellcome{
+        width: 86.76%;
+        margin-top: 4vh;
+        text-align: left;
+        font: {
+            family: Merriweather, serif;
+            style: normal;
+            weight: bold;
+            size: 24px;
+        }
+        line-height: 24px;
+        letter-spacing: 0.75px;
+        color: #404040;
+    }
+    & #claim{
+        width: 86.76%;
+        margin-top: 2.46vh;
+        text-align: left;
+        font: {
+            family: Raleway, sans-serif;
+            style: normal;
+            weight: normal;
+            size: 12px;
+        }
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        color: #404040;
+    }
+    & #userAccount{
+        width: 86.76%;
+        margin-top: 2.46vh;
+        text-align: left;
+        font: {
+            family: Raleway, sans-serif;
+            style: normal;
+            weight: normal;
+            size: 15px;
+        }
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        color: #404040;
+    }
+    & #imgContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 61%;
+        margin-top: 10vh;
+        & img{
+            width: 100%;
+        }
+    }
+    & #info{
+        width: 77.77%;
+        margin-top: 4vh;
+        font: {
+            family: Raleway, sans-serif;
+            style: normal;
+            weight: normal;
+            size: 12px;
+        }
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: #404040;
+    }
+}
